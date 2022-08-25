@@ -144,7 +144,6 @@ header nav a.activo{
 .peliculas-recomendadas .contenedor-principal .flecha-derecha:hover{
     background-color: rgba(0,0,0,.9);
 }
-
 .peliculas-recomendadas .contenedor-principal .flecha-izquierda{
     left: 0;
 }
@@ -201,7 +200,12 @@ header nav a.activo{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         gap: 20px;
-    }   
+    } 
+    .peliculas-recomendadas .indicadores, 
+    .peliculas-recomendadas .contenedor-principal .flecha-izquierda,
+    .peliculas-recomendadas .contenedor-principal .flecha-derecha{
+        display: none;
+    } 
 
 }
 
